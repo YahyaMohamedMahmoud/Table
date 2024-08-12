@@ -15,12 +15,34 @@
         width: 100%;
     }
     .form-select-sm {
-       width: 20%;
+       width: 24%;
+       font-size: 14px;
     }
     .search-box input {
         width: 80%;
     }
     body{
         padding: 20px 0;
+    }
+    th, td {
+        padding: 20px 10px !important;
+        font-size: 12px;
+    }
+    .table tr td:first-child{
+        font-size: 16px;
+    }
+    .pagination button {
+        padding: 0px 10px;
+        margin: 0 5px;
+        font-size: 12px;
+        border: none;
+        background-color: darkblue;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .pagination .number{
+        padding: 5px 6px;
+        background-color: #0057b376;
     }
 }
