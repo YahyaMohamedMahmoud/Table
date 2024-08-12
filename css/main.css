@@ -1,0 +1,17 @@
+/* vendors style */
+@import url("vendors/bootstrap.min.css");
+@import url("vendors/all.css");
+@import url("vendors/fontawesome.min.css");
+/* vendors style */
+
+/* pages style */
+@import url("page/home.css");
+/* pages style */
+
+/* base style */
+@import url("base/base.css");
+/* base style */
+
+/* responsive style */
+@import url("responsive/responsive.css");
+/* responsive style */

@@ -1,0 +1,98 @@
+.tableSec{
+    width: 80%;
+    margin: auto;
+}
+.tableSec h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.search-box input {
+    width: 40%;
+    padding: 10px 39px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #868686;
+}
+.search-box .icon {
+    margin-left: -40px;
+    margin-top: 8px;
+    z-index: 1;
+    font-size: 20px;
+}
+.form-select-sm {
+
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 1px solid #868686;
+}
+.search-box input:focus{
+    outline: none;
+}
+.search-box button {
+    width: 80px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-box button:hover {
+    background-color: #0056b3;
+}
+table {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 20px 30px !important;
+    font-weight: 600;
+}
+.table th {
+    color: #868686;
+    font-weight: bold;
+}
+.table tr td:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination .number{
+    padding: 10px;
+    background-color: #0057b376;
+}
+.tableFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.pagination button:hover {
+    background-color: #0056b3;
+}
+.tableFooter .form-select2{
+        display: inline;
+        width: auto;
+
+}

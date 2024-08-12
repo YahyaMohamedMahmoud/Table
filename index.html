@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Table</title>
+</head>
+<body>
+
+<section class="tableSec">
+  <div class="container">
+    <h2>تصفح الإضافات حسب التصنيف</h2>
+    <div class="search-box">
+      <select class="form-select form-select-sm" aria-label="Small select example">
+        <option selected>الكل</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <label for="search" class="icon"><i class="fa-solid fa-magnifying-glass"></i></label>
+      <input type="text" id="search" onkeyup="searchTable()" placeholder="البحث عن ..">
+    </div>
+
+    <table class="table">
+        <thead>
+        <tr>
+          <th>الدومين</th>
+          <th>سعر جديد</th>
+          <th>نقل</th>
+          <th>تجديد</th>
+        </tr>
+        </thead>
+        <tbody id="domainTable">
+        <tr>
+            <td>.com</td>
+            <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+        </tr>
+        <tr>
+            <td>.net</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+        </tr>
+        <tr>
+            <td>.org</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+        </tr>
+        <tr>
+            <td>.biz</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+        </tr>
+        <tr>
+            <td>.info</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+             <td>USD $14.95 <br> 1 سنة</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="tableFooter">
+      <div class="data">
+        <span>عرض المدخلات</span>
+        <select class="form-select form-select2 form-select-sm" aria-label="Small select example">
+          <option selected>10</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="pagination">
+        <button>السابق</button>
+        <span class="number">1</span>
+        <button>التالي</button>
+    </div>
+    
+    </div>
+
+</div>
+</section>
+
+<!-- js file -->
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+    
+
+</body>
+</html>

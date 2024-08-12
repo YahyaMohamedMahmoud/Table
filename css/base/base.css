@@ -1,0 +1,22 @@
+img{
+    width: 100%;
+    display: block;
+}
+a{
+text-decoration: none;
+text-transform: capitalize;
+}
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+body{
+    font-family: "Cairo", sans-serif;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+    padding: 20px;
+}
