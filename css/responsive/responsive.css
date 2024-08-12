@@ -12,7 +12,7 @@
 
 @media screen and (max-width:600px){
     .tableSec{
-        width: min-content;
+        width: 100%;
     }
     .form-select-sm {
        width: 20%;
@@ -21,6 +21,6 @@
         width: 80%;
     }
     body{
-        padding: 10px;
+        padding: 20px 0;
     }
 }
