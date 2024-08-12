@@ -1,13 +1,16 @@
-@media screen and (max-width:1024px){
-   
-  
+@media screen and (max-width:768px){
+    .tableSec {
+        width: 100%;
+    }
+    .form-select-sm {
+        width: 50%;
+        font-size: 14px;
+     }
+     .search-box input {
+         width: 50%;
+     }
 }
-@media screen and (max-width:992px){
 
-   
-
-
-}
 
 
 @media screen and (max-width:600px){
